@@ -22,7 +22,7 @@
 */
 
 const WHATSAPP_NUMBER = "212723354542";
-
+const INSTAGRAM_URL = "https://www.instagram.com/best2720f/";
 
 /* =====================================================
    PRODUCTS
@@ -1659,3 +1659,12 @@ function init() {
 
 
 init();
+document.addEventListener("DOMContentLoaded", () => {
+    const instagramLinks = document.querySelectorAll('a[href="#instagram"]');
+
+    instagramLinks.forEach(link => {
+        link.href = INSTAGRAM_URL;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+    });
+});
