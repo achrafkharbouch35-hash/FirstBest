@@ -1,5 +1,5 @@
 /* =====================================================
-   CHIHAJA — ORANGE EDITION
+   FirstBest — ORANGE EDITION
    ===================================================== */
 
 
@@ -21,7 +21,7 @@
    212612345678
 */
 
-const WHATSAPP_NUMBER = "212600000000";
+const WHATSAPP_NUMBER = "212723354542";
 
 
 /* =====================================================
@@ -267,11 +267,11 @@ let currentCategory = "Tous";
 let searchTerm = "";
 
 let cart = JSON.parse(
-  localStorage.getItem("chihaja_cart") || "[]"
+  localStorage.getItem("firstbest_cart") || "[]"
 );
 
 let favorites = JSON.parse(
-  localStorage.getItem("chihaja_favorites") || "[]"
+  localStorage.getItem("firstbesta_favorites") || "[]"
 );
 
 
@@ -335,12 +335,12 @@ const modalBody =
 function saveData() {
 
   localStorage.setItem(
-    "chihaja_cart",
+    "firstbest_cart",
     JSON.stringify(cart)
   );
 
   localStorage.setItem(
-    "chihaja_favorites",
+    "firstbest_favorites",
     JSON.stringify(favorites)
   );
 
@@ -1001,12 +1001,12 @@ function createWhatsAppMessage() {
 
   if (cart.length === 0) {
 
-    return "Bonjour CHIHAJA, je souhaite avoir plus d'informations sur vos produits.";
+    return "Bonjour FirstBest, je souhaite avoir plus d'informations sur vos produits.";
 
   }
 
   let message =
-    "Bonjour CHIHAJA 👋%0A%0A";
+    "Bonjour FirstBest 👋%0A%0A";
 
   message +=
     "Je souhaite commander les produits suivants :%0A%0A";
@@ -1582,7 +1582,7 @@ document
       event.preventDefault();
 
       openWhatsApp(
-        "Bonjour CHIHAJA 👋 Je souhaite avoir des informations sur vos produits."
+        "Bonjour FirstBest 👋 Je souhaite avoir des informations sur vos produits."
       );
 
     }
@@ -1598,7 +1598,7 @@ document
       event.preventDefault();
 
       openWhatsApp(
-        "Bonjour CHIHAJA 👋 Je souhaite avoir des informations sur vos produits."
+        "Bonjour FirstBest 👋 Je souhaite avoir des informations sur vos produits."
       );
 
     }
