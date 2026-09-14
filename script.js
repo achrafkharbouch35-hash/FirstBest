@@ -221,37 +221,47 @@ const products = [
   newest: false,
   image: "pack1.jpg",
 
-  description: `📦 Pack complet vidéosurveillance — Dahua & WDLink
+  description:description: `📦 PACK COMPLET VIDÉOSURVEILLANCE — DAHUA & WDLINK
 
-Pack complet de vidéosurveillance professionnel, comprenant tout le nécessaire pour réaliser une installation CCTV : enregistreur vidéo numérique Dahua HDCVI WizSense, 4 caméras Dahua 5MP HDCVI Smart Dual Light, alimentation centralisée WDLink 12V 24CH, câble coaxial WDLink RG59 + DC + Jacket de 100 mètres, câble HDMI 2.0 4K, disque dur Western Digital 500GB, ainsi que les connecteurs BNC et connecteurs d'alimentation DC.
+Une solution complète de vidéosurveillance professionnelle pour sécuriser votre maison, magasin, bureau, entrepôt ou local professionnel.
 
-Une solution complète et pratique pour équiper une maison, un magasin, un bureau, un entrepôt ou un local professionnel avec un système de surveillance fiable.
+📦 CONTENU DU PACK
 
-📦 Contenu du pack :
+🎥 CAMÉRAS
+• 4 × Caméras Dahua HDCVI 5MP
+• Technologie Smart Dual Light
+• Surveillance de jour et de nuit
 
-🎥 4 × Caméras Dahua HDCVI 5MP Smart Dual Light
-🖥️ 1 × Enregistreur vidéo Dahua HDCVI WizSense
-⚡ 1 × Alimentation WDLink 12V 24CH
-🔌 1 × Câble coaxial RG59 + DC + Jacket – 100M
-📺 1 × Câble HDMI 2.0 4K
-💾 1 × Disque dur WD 500GB
-🔩 Connecteurs BNC
-🔋 Connecteurs d'alimentation DC`
-},
+🖥️ ENREGISTREUR
+• 1 × Enregistreur vidéo Dahua HDCVI
+• Technologie WizSense
+• Fonction Two-Way Talk
 
-  {
-    id: 14,
-    name: "Portable Speaker",
-    brand: "JBL",
-    category: "Audio",
-    price: 1290,
-    oldPrice: 1490,
-    badge: "-13%",
-    newest: false,
-    image:
-      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=85",
-    description:
-      "Enceinte Bluetooth compacte avec un son puissant."
+⚡ ALIMENTATION
+• 1 × Alimentation WDLink
+• 12V
+• 24CH
+• Alimentation centralisée pour les caméras
+
+🔌 CÂBLAGE
+• 1 × Câble coaxial WDLink RG59 + DC + Jacket
+• Longueur : 100 mètres
+• 1 × Câble HDMI 2.0
+• Compatible 4K
+
+💾 STOCKAGE
+• 1 × Disque dur Western Digital
+• Capacité : 500GB
+
+🔩 CONNECTIQUE
+• Connecteurs BNC
+• Connecteurs d'alimentation DC
+
+🏠 IDÉAL POUR
+Maison • Magasin • Bureau • Entrepôt • Entreprise
+
+✅ UNE SOLUTION COMPLÈTE
+Tout le nécessaire pour réaliser une installation de vidéosurveillance professionnelle.`
   }
 ];
 
