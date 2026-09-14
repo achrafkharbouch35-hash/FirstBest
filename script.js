@@ -208,8 +208,51 @@ const products = [
       "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=85",
     description:
       "Enceinte Bluetooth compacte avec un son puissant."
-  }
+  },
 
+  {
+  id: 13,
+  name: "Pack complet vidéosurveillance",
+  brand: "Dahua 5MP – Kit complet",
+  category: "Packs",
+  price: 1290,
+  oldPrice: 1490,
+  badge: "-13%",
+  newest: false,
+  image: "pack1.jpg",
+
+  description: `📦 Pack complet vidéosurveillance — Dahua & WDLink
+
+Pack complet de vidéosurveillance professionnel, comprenant tout le nécessaire pour réaliser une installation CCTV : enregistreur vidéo numérique Dahua HDCVI WizSense, 4 caméras Dahua 5MP HDCVI Smart Dual Light, alimentation centralisée WDLink 12V 24CH, câble coaxial WDLink RG59 + DC + Jacket de 100 mètres, câble HDMI 2.0 4K, disque dur Western Digital 500GB, ainsi que les connecteurs BNC et connecteurs d'alimentation DC.
+
+Une solution complète et pratique pour équiper une maison, un magasin, un bureau, un entrepôt ou un local professionnel avec un système de surveillance fiable.
+
+📦 Contenu du pack :
+
+🎥 4 × Caméras Dahua HDCVI 5MP Smart Dual Light
+🖥️ 1 × Enregistreur vidéo Dahua HDCVI WizSense
+⚡ 1 × Alimentation WDLink 12V 24CH
+🔌 1 × Câble coaxial RG59 + DC + Jacket – 100M
+📺 1 × Câble HDMI 2.0 4K
+💾 1 × Disque dur WD 500GB
+🔩 Connecteurs BNC
+🔋 Connecteurs d'alimentation DC`
+},
+
+  {
+    id: 14,
+    name: "Portable Speaker",
+    brand: "JBL",
+    category: "Audio",
+    price: 1290,
+    oldPrice: 1490,
+    badge: "-13%",
+    newest: false,
+    image:
+      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=85",
+    description:
+      "Enceinte Bluetooth compacte avec un son puissant."
+  }
 ];
 
 
@@ -219,6 +262,12 @@ const products = [
 
 const categories = [
 
+   {
+    name: "Écrans & Moniteurs",
+    icon: "🖥️",
+    description: "Une image claire, des couleurs éclatantes et des performances adaptées à tous vos besoins"
+  },
+   
   {
     name: "Smartphones",
     icon: "📱",
@@ -244,17 +293,28 @@ const categories = [
   },
 
   {
-    name: "Gaming",
-    icon: "🎮",
-    description: "Pour jouer sans limite"
+    name: "Packs",
+    icon: "📦📹",
+    description: "Packs de vidéosurveillance complets, prêts à installer"
   },
 
+    {
+    name: "Cameras",
+    icon: "📹",
+    description: "Protégez vos espaces avec des caméras fiables, performantes et adaptées à tous vos besoins"
+  },
+   
   {
-    name: "Accessoires",
-    icon: "⌘",
+    name: "Câbles, Accessoires & Électronique",
+    icon: "🔌🔋🛠️📡",
     description: "Complétez votre setup"
-  }
+  },
 
+   {
+    name: "Trottinettes",
+    icon: "🛴⚡🔋",
+    description: "Trottinettes électriques"
+  }
 ];
 
 
