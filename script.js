@@ -208,8 +208,61 @@ const products = [
       "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=85",
     description:
       "Enceinte Bluetooth compacte avec un son puissant."
-  }
+  },
 
+ {
+  id: 13,
+  name: "Pack complet vidéosurveillance",
+  brand: "Dahua 5MP – Kit complet",
+  category: "Packs",
+  price: 1290,
+  oldPrice: 1490,
+  badge: "-13%",
+  newest: false,
+  image: "pack1.jpg",
+
+  description:description: `📦 PACK COMPLET VIDÉOSURVEILLANCE — DAHUA & WDLINK
+
+Une solution complète de vidéosurveillance professionnelle pour sécuriser votre maison, magasin, bureau, entrepôt ou local professionnel.
+
+📦 CONTENU DU PACK
+
+🎥 CAMÉRAS
+• 4 × Caméras Dahua HDCVI 5MP
+• Technologie Smart Dual Light
+• Surveillance de jour et de nuit
+
+🖥️ ENREGISTREUR
+• 1 × Enregistreur vidéo Dahua HDCVI
+• Technologie WizSense
+• Fonction Two-Way Talk
+
+⚡ ALIMENTATION
+• 1 × Alimentation WDLink
+• 12V
+• 24CH
+• Alimentation centralisée pour les caméras
+
+🔌 CÂBLAGE
+• 1 × Câble coaxial WDLink RG59 + DC + Jacket
+• Longueur : 100 mètres
+• 1 × Câble HDMI 2.0
+• Compatible 4K
+
+💾 STOCKAGE
+• 1 × Disque dur Western Digital
+• Capacité : 500GB
+
+🔩 CONNECTIQUE
+• Connecteurs BNC
+• Connecteurs d'alimentation DC
+
+🏠 IDÉAL POUR
+Maison • Magasin • Bureau • Entrepôt • Entreprise
+
+✅ UNE SOLUTION COMPLÈTE
+Tout le nécessaire pour réaliser une installation de vidéosurveillance professionnelle.`
+  }
 ];
 
 
@@ -219,6 +272,12 @@ const products = [
 
 const categories = [
 
+   {
+    name: "Écrans & Moniteurs",
+    icon: "🖥️",
+    description: "Une image claire, des couleurs éclatantes et des performances adaptées à tous vos besoins"
+  },
+   
   {
     name: "Smartphones",
     icon: "📱",
@@ -244,17 +303,28 @@ const categories = [
   },
 
   {
-    name: "Gaming",
-    icon: "🎮",
-    description: "Pour jouer sans limite"
+    name: "Packs",
+    icon: "📦📹",
+    description: "Packs de vidéosurveillance complets, prêts à installer"
   },
 
+    {
+    name: "Cameras",
+    icon: "📹",
+    description: "Protégez vos espaces avec des caméras fiables, performantes et adaptées à tous vos besoins"
+  },
+   
   {
-    name: "Accessoires",
-    icon: "⌘",
+    name: "Câbles, Accessoires & Électronique",
+    icon: "🔌🛠️📡",
     description: "Complétez votre setup"
-  }
+  },
 
+   {
+    name: "Trottinettes",
+    icon: "🛴⚡",
+    description: "Trottinettes électriques"
+  }
 ];
 
 
